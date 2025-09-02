@@ -10,10 +10,6 @@ O objetivo é gerenciar diferentes tipos de materiais de uma biblioteca (livros,
 - Exibir informações de cada item da biblioteca (título, autor, ano).  
 - Permitir **empréstimo** e **devolução** de itens.  
 - Demonstrar **polimorfismo** ao manipular diferentes tipos de itens como uma única superclasse.  
-- Métodos exclusivos por tipo:
-  - 📖 **Livro** → `readSample()` (ler amostra).  
-  - 📰 **Revista** → `flipPages()` (folhear páginas).  
-  - 💾 **Mídia Digital** → `play()` (reproduzir).  
 
 ---
 
@@ -65,19 +61,6 @@ Reproduzindo a mídia digital "Curso Java" no formato MP4...
 ## Tecnologias utilizadas
 - **Java 17+**  
 - **IntelliJ IDEA Community**  
-
----
-
-## Como executar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/LibraryManagementSystem.git
-   ```
-2. Abra o projeto no IntelliJ IDEA ou outro editor Java.  
-3. Rode a classe principal:
-   ```bash
-   LibraryManagementSystem.java
-   ```
 
 ---
 
